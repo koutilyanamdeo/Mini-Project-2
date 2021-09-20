@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
 *
 {
   margin: 0;
@@ -19,11 +21,14 @@
 {
   clear: both;
 }
-
+html{
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+  background-repeat: no-repeat;
+  height: 100%;
+}
 body
 {
-  font-family: 'Roboto', sans-serif;
-  background: #222222;
+  font-family: 'Jost', sans-serif;
 }
 
 .numbers
@@ -38,11 +43,13 @@ body
 {
   width: 31%;
   float: left;
-  background: #413F42;
+  background: #d8d8d8;
+  opacity: 60%;
+  color: rgb(78, 78, 78);
+  border-radius: 15px;
   padding: 2% 0;
   text-align: center;
   font-size: 2em;
-  color: #fff;
   margin: 0.5% 1.15%;
   font-weight: bold;
   border: none;
@@ -51,7 +58,10 @@ body
 .numbers li:hover, .numbers button:hover, .operators button:hover
 {
   cursor: pointer;
-  background: #2ebad3;
+  background: #86a4f7;
+  opacity: 60%;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
 }
 
 .operators button:last-child
@@ -72,28 +82,37 @@ body
   padding: 2% 0;
   text-align: center;
   font-size: 2em;
-  background: #413F42;
+  background: #d8d8d8;
+  opacity: 60%;
+  color: rgb(78, 78, 78);
+  border-radius: 15px;
   border: 1px solid #fff;
-  color: #fff;
+
   border: none;
   margin: 0.5% 1.15%;
   font-weight: bold;
 }
 .operators button:last-child
 {
-  background: #2ebad3;
+  background: #d8d8d8;
+  opacity: 60%;
+  color: rgb(78, 78, 78);
+  border-radius: 15px;
 }
 
 .operators button:last-child:hover
 {
-  background: #2494a8;
+  background: #d8d8d8;
+  opacity: 60%;
+  color: rgb(78, 78, 78);
+  border-radius: 15px;
 }
 
 .result
 {
   width: 60%;
   margin: 0 auto;
-  font-size: 10em;
+  font-size: 4em;
   color: #fff;
   text-align: center;
   font-weight: bold;
@@ -113,7 +132,7 @@ body
 
   .result
   {
-    font-size: 7em;
+    font-size: 3em;
   }
 }
 
@@ -121,7 +140,7 @@ body
 {
   .result
   {
-    font-size: 3em;
+    font-size: 2em;
   }
 
 }
