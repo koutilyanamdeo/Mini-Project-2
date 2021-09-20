@@ -14,8 +14,7 @@ this projects aims for practising my skills and creating something diffterent fr
 -  ##### BootStrap v5.1
 ## Specific Features:
 
-- Based on Blue and white theme
-- Purely based on HTML & CSS
+- Based on dark and light theme grdient effect
 - Smooth scrolling and jumping to different sections
 - responsive webdesign
 
